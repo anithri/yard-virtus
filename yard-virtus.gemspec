@@ -17,6 +17,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {spec}/*`.split("\n")
   gem.extra_rdoc_files = %w[LICENSE.txt README.md]
 
-  gem.add_dependency("virtus", "= 1.0.2")
+  gem.add_dependency("virtus", "= 1.0.3")
   gem.add_dependency("yard",   "~> 0.8.7.4")
 end
