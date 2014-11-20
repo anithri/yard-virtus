@@ -52,13 +52,13 @@ GEM
     slop (3.5.0)
     terminal-notifier-guard (1.5.3)
     thor (0.19.1)
-    thread_safe (0.3.3)
+    thread_safe (0.3.4)
     timers (1.1.0)
-    virtus (1.0.2)
+    virtus (1.0.3)
       axiom-types (~> 0.1)
       coercible (~> 1.0)
-      descendants_tracker (~> 0.0.3)
-      equalizer (~> 0.0.9)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
     yard (0.8.7.4)
 
 PLATFORMS
@@ -71,5 +71,5 @@ DEPENDENCIES
   redcarpet
   rspec
   terminal-notifier-guard
-  virtus (= 1.0.2)
+  virtus (~> 1.0.3)
   yard (= 0.8.7.4)
