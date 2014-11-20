@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "virtus", "= 1.0.2"
+gem "virtus", "~> 1.0.2"
 gem "yard", "= 0.8.7.4"
 
 group :development do
